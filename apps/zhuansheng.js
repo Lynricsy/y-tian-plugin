@@ -34,7 +34,7 @@ export class example extends plugin {
         priority: 40,
         rule: [
           {
-            reg: '^#星穹转生$',
+            reg: '^#星(铁|穹)转生$',
             fnc: 'zs'
           }
         ]
