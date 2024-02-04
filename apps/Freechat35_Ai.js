@@ -16,7 +16,7 @@ export class example extends plugin {
           fnc: 'free_chat'
         }, 
         {
-          reg: "^#结束问答$",
+          reg: "^#结束gpt3对话$",
           fnc: 'endchat'
         }
       ]
